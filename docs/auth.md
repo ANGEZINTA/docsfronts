@@ -10,20 +10,20 @@ Les accès sont attribué sur la V2 par la ligne hiérarchique.
 
 ## Connexion
 ### Connexion Collaborateur
-<img src="public/connexion.png" />
+<img src="/connexion.png" />
 Avec vos accès, vous pouvez vous connectez à l'application.
 
 ### Connexion Partenaire
-<img src="public/connexionIndication.png" />
+<img src="/connexionIndication.png" />
 
 En tant que partenaire, vous pouvez vous connecter en cliquant sur le boutton `Portail Partenaire` ci-dessus et ainsi vous rendre sur la page de connexion partenaire ci-dessous.
 
-<img src="public/connexionPartner.png" />
+<img src="/connexionPartner.png" />
 Avec vos accès, vous pouvez vous connectez à l'application.
 
 ## Mot de passe oublié
 En cas de mot de passe oublié, cliquez sur `Forgotten ?` et vous serez rediriger vers la page mot de passe oublié ci-dessous.
 
-<img src="public/forgotten.png" />
+<img src="/forgotten.png" />
 
 Indiquez votre email d'accès dans le champ prévu à cet effet. Un courriel vous sera envoyé pour vous permettre de réinitialiser votre mot de passe.
