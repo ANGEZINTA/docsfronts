@@ -1,7 +1,11 @@
 # Paiement
-On peut verifirer ici les differents paiements effectuer, rechercher et telecharger.
+Ici, vous pouvez consulter les différents paiements effectués, effectuer des recherches et télécharger les informations si nécessaire.
+
+*
 
 ![Alt text](/public/paiement.png)
+
+*
 
 ##
 

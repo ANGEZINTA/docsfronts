@@ -1,5 +1,6 @@
-# Parainages
-On a la possibilté de voir ici tous les  parainnaiges existants
+# Parrainages
+c'est un système ou le client  recommande le service proposer par l'entreprise.
 
+Ici, vous pouvez consulter tous les parrainages existants.
 
 ![Alt text](/public/parainages.png)

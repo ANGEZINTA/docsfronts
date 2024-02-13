@@ -1,6 +1,12 @@
 # Apporteur
-::: On enregistre ici celui qui est a l'origine du contrat, on peut aussi generer des codes pour l'apporteurs avec des paramètres
 
+Un apporteur est  l'intermédiaire entre les assureurs et les clients, chargé de présenter et de vendre des produits d'assurance. 
+
+
+Nous enregistrons ici l'initiateur du contrat et avons la possibilité de générer des codes pour l'apporteur avec des paramètres.
+
+
+*
 
 ![Alt text](/public/apporteurs.png)
 

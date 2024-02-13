@@ -1,5 +1,6 @@
 # Importer 
-On a ici la possiblité d'importer tous sorte de documents pour notre application
+
+Ici, nous avons la capacité d'importer divers types de documents dans notre application.
 
 *
 ![Alt text](/public/importer.png)

@@ -1,34 +1,26 @@
-### <span style="color:green">GET</span>    Status Groupe de reponse
+# Entreprises
+Nous enregistrons ici les entreprises clientes.
 
-````
-BASE_URL/check/status/{uuid}
-````
-<br>
+*
 
-# Récupération du status d'un groupe de reponse
-Ce guide vous aide à comprendre comment récupérer le status d'un groupe de reponse.
+![Alt text](/public/entreprises.png)
 
-## Example de requête
+*
 
-```txt
-curl --location 'BASE_URL/check/status/{uuid}'
+![Alt text](/public/ajout_entreprises.png)
+
+*
+
 ```
 
-## Données reçues
-L'API renverra une réponse JSON contenant le status d'un groupe de reponse :
+<div class="d-flex align-items-center py-1">
+    <button v-b-modal.modal-center class="btn btn-primary btn-sm">
+    <i class="fad fa-building"></i>
+    {{ trans('Ajouter une entreprise') }}
+    </button>
 
-## Exemple de Réponse
 
-::: details Corps  
+</div>
 
-```json
-{
-    "status": "success",
-    "state": "status"
-}
+
 ```
-:::
-
-::: details En-Têtes (1)
- *Content-Type*    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     application/json
-:::

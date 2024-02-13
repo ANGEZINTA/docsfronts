@@ -1,5 +1,5 @@
 # Utilisateurs
-Tout les utilisateurs de  l'application sont enregistrer ici
+Tous les utilisateurs de l'application sont enregistrés ici.
 
 *
 

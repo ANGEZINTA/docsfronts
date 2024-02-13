@@ -1,11 +1,16 @@
 # comparateur
-Il trouve la bonne offre disponible pour le client selon le produits choisir
+
+Il permet aux consommateurs de comparer rapidement et facilement les offres d'assurance disponibles sur le marché. 
+
+*
 
 ![Alt text](/public/comparateur.png)
 
 ###
 *
 ![Alt text](/public/type_comporateur_assurance.png)
+
+*
 
 ```template
  <div class=" d-flex d-flex justify-content-center  px-10">

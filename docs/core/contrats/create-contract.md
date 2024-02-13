@@ -1,104 +1,56 @@
+# Branches
+Ce volet nous offre la possibilité de créer, modifier des catégories d'assurances et de créer des branches pour la configuration.
 
-### <span style="color:green">GET</span>  Créer un contrat
+*
 
-````
-BASE_URL/branch/{uuid}
-````
+![Alt text](/public/branches.png)
 
-## HEADERS
-
-| Authorization | Basic TOKEN |
-| ------------- | ----------- |
+*
 
 
-## Example Request
+![Alt text](/public/creer_branches.png)
 
-```curl
+*
 
+```template
 
-curl --location BASE_URL/branch/{uuid}' \
---header 'Authorization: Basic TOKEN'
-
-```
-
-
-## Example Response
-
-::: details Body  
-
-```json
-{
-    "status": "success",
-    "branch": {
-        "id": 7,
-        "label": "test",
-        "icon": "fab fa-adobe",
-        "slug": "individuel-test",
-        "description": null,
-        "ranking": 2,
-        "active": true,
-        "color": "",
-        "version": null,
-        "startDate": "",
-        "uuid": "1ee5b97a-357f-6766-9848-00505646c51f",
-        "createdAt": "2023-09-25T11:35:33+00:00",
-        "updatedAt": "2023-11-01T18:48:46+00:00",
-        "createBy": "user@wiassur.com",
-        "updateBy": "user@wiassur.com",
-        "removeBy": null,
-        "printables": [],
-        "photo": "",
-        "engineVersion": null
-    }
-}
-
+     <div @click="resetBranch" class="btn-sm btn btn-primary ms-5"
+                 v-b-modal.branchModal>
+              <i class="fad fa-plus"></i>
+              {{ trans('Create_Branch') }}
+            </div>
 
 ```
 
+*
 
 
+![Alt text](/public/creer_categorie.png)
 
-:::
+*
 
+```template
 
-::: details Headers (12)
+    
+<div @click="resetCategory" class="btn-sm btn btn-danger"
+        v-b-modal.categoryModal>
+    <i class="fad fa-plus"></i>
+    {{ trans('Create_Category') }}
+</div>
+```
 
- *Server*    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      cloudflare
-
- *Content-Type*    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   application/json
-
-
- *Transfer-Encoding*    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      chunked
-
- *Connection*    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  keep-alive
- 
- *Vary*    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Accept-Encoding
-
+*
 
 
- *X-Powered-By*    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  PHP/8.2.7
+![Alt text](/public/modifier_categorie.png)
 
+*
 
- *Cache-Control*    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; no-cache, private
+```template
 
- 
- *Date*    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Mon, 26 Jun 2023 19:54:39 GMT
- 
-
-  *X-RateLimit-Limit*    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  600
-
-  *X-RateLimit-Remaining*    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  599
-
-*Access-Control-Allow-Origin*    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *
-
-
-*Content-Encoding*    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  gzip
-
-  
- 
-
-
-
-
-
-:::
+ <div @click="editCategory" class="btn-sm btn btn-warning me-5"
+        v-b-modal.categoryModal v-if="currentCategory">
+    <i class="fad fa-edit"></i>
+    {{ trans('Modifier la catégorie') }}
+</div>
+```

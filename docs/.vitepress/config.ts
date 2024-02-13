@@ -123,16 +123,25 @@ export default defineConfig({
           copyright: "Copyright © 2023 WiASSUR. All rights reserved.",
         },
         sidebar: [
+
+        
           {
             text: "CONFIGURATION",
             collapsed: true,
             items: [
               {
+
+                text: "Branches",
+                link: "/core/contrats/create-contract",
+
+              },
+        
+              {
                 text: "Typages des données",
                 link: "/master/description",
               },
               {
-                text: "Dureés",
+                text: "Durées",
                 link: "/master/get-durations"
               
               },  
@@ -147,7 +156,7 @@ export default defineConfig({
               
             
               {
-                text: "Categorie de parck",
+                text: "Categorie de pack",
                 link: "/master/post-durations",
               },
              
@@ -156,7 +165,7 @@ export default defineConfig({
                     link: "/master/post-typedata",
                   },
               {
-                    text: "Parameters",
+                    text: "Parametre",
                     link: "/master/get-generate-typedata",
                   },
 
@@ -196,7 +205,7 @@ export default defineConfig({
                     link: "/core/contrats/avenants",
                   },
                   {
-                    text: "Parainages",
+                    text: "Parrainages",
                     link: "/core/contrats/parainages",
                   },
                   {
@@ -220,7 +229,7 @@ export default defineConfig({
                     link: "/core/contrats/importer",
                   },
                   {
-                    text: "Statistic",
+                    text: "Statistiques",
                     link: "/core/contrats/statistic",
                   },
                  
@@ -260,7 +269,7 @@ export default defineConfig({
                 link: "/form/sms",
               },
               {
-                text: "URL shrotener",
+                text: "URL shortener",
                 link: "/form/urlsho",
               }, {
                 text: "Modele Email",
@@ -276,8 +285,8 @@ export default defineConfig({
            items :[
             
               {
-                text: "Prise de conctact",
-                link: "/form/description",
+                text: "Prise de contact",
+                link: "/form/api/put-devis",
               },
           
                 

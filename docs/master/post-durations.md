@@ -1,21 +1,22 @@
 # Categorie de pack
-Ici on creer differents categorie de pack pour les formules de souscription du client
+
+Ici, nous créons diverses catégories de packs pour les options d'abonnement du client.
+
+*
+![Alt text](/public/categorie_pack.png)
+
+*
 
 ![Alt text](/public/creer_categorie_pack.png)
 
-**code
+*
 
-````
+````template 
 
-<div data-v-f1649a84="" data-v-3bda60ae="" class="btn btn-primary btn-sm btn-icon" role="button" tabindex="0">
-
-
-<i data-v-f1649a84="" data-v-3bda60ae="" class="fad fa-plus">
-
-</i>
-
+<div @click="createPackCategory(branch)" class="btn btn-primary btn-sm btn-icon"
+            v-b-modal="'editPackCategory'">
+        <i class="fad fa-plus"></i>
 </div>
 
 ````
 
-<br/>

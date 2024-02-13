@@ -1,5 +1,8 @@
 # Contrat
-On enregistre tous les contrats et on peux effectuer des recherche et rénitialiser.
+
+Nous enregistrons tous les contrats et proposons des fonctionnalités de recherche et de réinitialisation.
+
+*
 
 ![Alt text](/public/contrats.png)
 

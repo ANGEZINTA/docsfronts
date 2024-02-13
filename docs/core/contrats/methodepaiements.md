@@ -1,6 +1,7 @@
 # Methode de paiement
+Ici, nous disposons de toutes les méthodes de paiement possibles utilisées par l'application, que nous pouvons également créer.
 
-On a tout simplement ici tout les methodes de paiement possible utiliser par l'application qu'on peut creer.
+*
 
 ######
 

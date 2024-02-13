@@ -1,14 +1,22 @@
-# Parameter
-On enregistre nos différents methodes de calcules et etats
+# Parametère
+Nous enregistrons les différentes méthodes de calcul et les états associés.
+
+*
 
 ![Alt text](/public/methods.png)
+
+*
 
 ##
 
 ![Alt text](/public/enregistrer_methodes.png)
 
-**code
+*
 
-````
-<div data-v-d5c74d06="" class="btn btn-primary"> Enregistrer </div>
+````bootstrap
+<div class="d-flex justify-content-end">
+        <div class="btn btn-primary">
+            Enregistrer
+        </div>
+</div>
 ````

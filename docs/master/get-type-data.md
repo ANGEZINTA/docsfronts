@@ -1,28 +1,56 @@
 # Plateforme
+Il s'agit d'un système qui propose une gamme de services et de fonctionnalités répondant à des besoins spécifiques, 
+notamment pour autoriser l'affichage de divers formulaires.<br>
 
-On parle ici a la creation d'une plateforme pour l'autorisation d'affichage de differents formulaires.
-avec
+En créant et en modifiant de nouvelles catégories, ainsi qu'en mettant en place de nouvelles plateformes.
+
+
+*
+
+![Alt text](/public/plateforme.png)
+
+*
+
 
 ![Alt text](/public/creer_plateforme.png)
 
 
-**code
+*
 
-````
-<div data-v-346a5b2a="" data-v-060be8e0="" class="btn btn-primary btn-sm">
-
-<i data-v-346a5b2a="" data-v-060be8e0="" class="fad fa-plus"></i> Créer une plateforme 
-
+````bootstrap
+ <div class="btn btn-primary btn-sm">
+    <i class="fad fa-plus"></i>
+    {{trans('Créer une plateforme')}}
 </div>
 
 ````
-<br>
+*
 
 ![Alt text](/public/activer_plateform.png)
 
-**code
+*
+
+````template
+<label class="form-check form-switch form-check-custom form-check-solid m-2">
+    <input :checked="isShown(platform,survey)" @change="toggleSurvey(platform.id,survey.id)"
+            class="form-check-input"
+            type="checkbox"/>
+</label>
 
 ````
-<input data-v-ea4fe2c8="" data-v-3bda60ae="" type="checkbox" class="form-check-input">
+*
 
-````
+Exemple de quelques formulaire : 
+
+*
+
+![Alt text](/public/form_assureurs.png)
+
+*
+
+
+
+![Alt text](/public/form_typage_donnees.png)
+
+
+

@@ -1,65 +1,65 @@
 # Assureurs
-On enregistre ici tous nos assureurs on modifie et supprime et on creer des pack pour nos clients.
-avec 
+C'est l'entreprise qui propose des services d'assurance.<br>
+Nous enregistrons ici tous nos assureurs, nous effectuons des modifications et des suppressions, et nous créons des packs pour nos clients.<br>
+les pack sont des sont des offres qui recouvre plusieurs types de couvertures d'assurances.
+
+*
+![Alt text](/public/assureurs.png)
+
+*
+
+
 ![Alt text](/public/creer_assureurs.png)
 
-**code
+*
 
-````
-<div data-v-0b6c267c="" data-v-060be8e0="" class="d-flex align-items-center py-1" role="button" tabindex="0">
+````bootstrap
 
-<button data-v-0b6c267c="" data-v-060be8e0="" class="btn btn-primary btn-sm">
-
-<i data-v-0b6c267c="" data-v-060be8e0="" class="fad fa-plus"></i> Créer un assureur
-
+<div class="d-flex align-items-center py-1" v-b-modal="'insurerForm'">
+<button class="btn btn-primary btn-sm">
+    <i class="fad fa-plus"></i>
+    {{ trans('Créer un assureur') }}
 </button>
-
 </div>
 ````
-<br>
+*
 
 ![Alt text](/public/editer_parck.png)
 
-**code
+*
 
+````template
+    <router-link :to="{
+                        name: 'pack-form', params: {
+                            insurerSlug: insurer.slug, branchSlug: pack.branchSlug,
+                            packId: pack.id
+                        }
+                    }" class="btn btn-xs btn-icon btn-primary me-2">
+    <i class="fad fa-edit"></i>
+    </router-link>
 ````
-<a data-v-2a3ef9ea="" href="/configuration/insurer/form/axa" class="btn btn-xs btn-icon btn-light-primary me-2" data-v-3bda60ae="">
-
-<i data-v-2a3ef9ea="" class="fad fa-edit">
-</i>
-
-</a>
-````
-<br>
+*
 
 ![Alt text](/public/supprimer_carte.png)
 
-**code
+*
 
-````
-<div data-v-2a3ef9ea="" data-v-3bda60ae="" class="btn btn-xs btn-icon  btn-light-danger">
-
-<i data-v-2a3ef9ea="" data-v-3bda60ae="" class="fad fa-trash">
-
-</i>
-
+````template
+<div @click="deletePack(pack)" class="btn btn-xs btn-icon btn-danger">
+<i class="fad fa-trash"></i>
 </div>
 ````
-<br>
+*
 
 ![Alt text](/public/creer_parck.png)
 
-**code
+*
 
 ````
-<div data-v-2a3ef9ea="" data-v-3bda60ae="" class="d-flex justify-content-center p-3">
-
-<a data-v-2a3ef9ea="" href="/configuration/pack/axa/individuel-auto" class="btn btn-primary btn-sm" data-v-3bda60ae="">
-
-<i data-v-2a3ef9ea="" class="fad fa-plus">
-
-</i> Créer un pack 
-
-</a>
-</div>
+<router-link
+        :to="{ name: 'pack-form', params: { insurerSlug: insurer.slug, branchSlug: branch.slug } }"
+        class="btn btn-primary btn-sm">
+    <i class="fad fa-plus"></i>
+    Créer un pack
+</router-link>
 ````

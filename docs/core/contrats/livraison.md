@@ -1,5 +1,8 @@
 # Livraison
-On affiche ici tout les contrat livrés par nos partenaires pour une validation après
+
+Nous affichons ici tous les contrats fournis par nos partenaires en vue de la validation des contrats d'assurance.
+
+*
 
 ![Alt text](/public/livraison.png)
 

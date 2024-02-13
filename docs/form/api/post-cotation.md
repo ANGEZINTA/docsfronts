@@ -1,52 +1,26 @@
-### <span style="color:orange">POST</span> Créer une cotation
+# Prospect
 
-````
-BASE_URL/api/response/group/new/{surveySlug}/{parent}/{partner}
-````
+On peut ajouter un client ici à la suite d'un rendez-vous qui a abouti à un contrat.
 
-<br/> <br/> 
+*
 
-# Création de cotation
-Ce guide vous aide à comprendre comment créer une cotation.
+![Alt text](/public/prospect.png)
 
+*
 
-## Informations envoyées dans la requête
+![Alt text](/public/ajout_client_prospect.png)
 
-Lors de la création de la cotation, les informations envoyées peuvent être les suivantes :
+*
 
+```template
 
-## Exemple de Requête
+ <div class="d-flex align-items-center py-1">
+        <label class="btn btn-primary btn-sm">
+            <input accept=".xlsx,.xls,.csv" class="hidden" type="file">
+            <i class="fad fa-user"></i>
+            {{ trans('Ajouter un client') }}
+        </label>
+</div>
 
-```txt
-curl --location 'BASE_URL/api/response/group/new/{surveySlug}/{parent}/{partner}' \'
-
+   
 ```
-
-
-## Exemple de Réponse
-
-::: details Corps  
-
-```json
-{
-    {
-        "status": "success",
-        "responseGroup": {}
-    },
-    200,
-    {},
-    {
-        "groups": {
-            "0":"response-group", 
-            "1":"infos",
-            "2": "response"
-            }
-    }
-}
-```
-:::
-
-
-::: details En-Têtes (1)
- *Content-Type*    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     application/json
-:::

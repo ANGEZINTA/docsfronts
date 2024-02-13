@@ -1,5 +1,7 @@
 # Clients
-on creer ici un client et on l'enregistre,rechercher et renitialiser
+Ici, nous créons un client, l'enregistrons, le recherchons et le réinitialisons.
+
+*
 
 ![Alt text](/public/client.png)
 

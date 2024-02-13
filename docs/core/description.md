@@ -1,5 +1,9 @@
 # Cotation
-On effectue les differents cotation ici après la validation d'une affaire.D'avoir des informations sur la cotations(details), la supprimer 
+C'est le  processus par lequel l'assureur évalue le risque d'un client et fournit une estimation du coût de la couverture d'assurance appropriée.
+
+Ici, nous effectuons les cotations une fois une affaire validée. Vous pouvez obtenir des informations détaillées sur la cotation ou la supprimer.
+
+*
 
 ![Alt text](/public/cotation.png)
 

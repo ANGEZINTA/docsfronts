@@ -1,23 +1,32 @@
 # Durées
-Ici on peut etablir un temps par rapport a la somme verser lors de la souscription du client.Avec le bouton creer et editer
+Il s'agit de la durée écoulée entre le début et la fin de la souscription.
+
+Ici, il est possible de définir une échéance en fonction du montant versé lors de l'inscription du client. Vous trouverez des boutons "Créer" et "Modifier" pour cela.
+
+*
+![Alt text](/public/durees.png)
+
+*
 
 ![Alt text](/public/creer_durer.png)
 
-**code
+*
 
+````template
+    <div class="btn-sm btn btn-primary ms-5" v-b-modal="'durationModal'">
+                        <i class="fad fa-plus"></i>
+                        {{ trans('Créer') }}
+    </div>
 ````
-<div data-v-0830d5e0="" data-v-3bda60ae="" class="btn-sm btn btn-primary ms-5" role="button" tabindex="0"><i data-v-0830d5e0="" data-v-3bda60ae="" class="fad fa-plus"></i> Créer 
 
-</div>
-````
-<br>
-
+*
 ![Alt text](/public/editer_durer.png)
 
-**code
+*
 
-````
-<div data-v-0830d5e0="" data-v-3bda60ae="" class="btn btn-xs btn-icon btn-warning"><i data-v-0830d5e0="" data-v-3bda60ae="" class="fad fa-edit"></i>
+````template
+< <div class="btn btn-xs btn-icon btn-warning" @click="setduration(duration)">
+        <i class="fad fa-edit"></i>
 </div>
 ````
 

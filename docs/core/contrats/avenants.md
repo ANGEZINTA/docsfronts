@@ -1,5 +1,5 @@
 # Avenants
-On  peut ici effectuer la modification du contrat existant 
+C'est la modifications d'un contrat d'assurance existant sans nécessiter la création d'un nouveau contrat.
 
 
 ![Alt text](/public/contrats.png)

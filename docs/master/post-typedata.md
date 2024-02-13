@@ -1,18 +1,23 @@
 # Langue
-On ajoute differents langues simplement et plateforme
+
+On ajoute différentes langues simplement sur la plateforme.
+
+*
+![Alt text](/public/langue.png)
+
+*
 
 ![Alt text](/public/creer_categorie_pack.png)
 
-**code
+*
 
-````
-<div data-v-640991c0="" data-v-3bda60ae="" class="btn btn-icon btn-primary" role="button" tabindex="0">
-
-<i data-v-640991c0="" data-v-3bda60ae="" class="fad fa-plus">
-
-</i>
-
+````template
+ <div>
+    <div class="btn btn-icon btn-primary" v-b-modal.languageModal>
+    <i class="fad fa-plus"></i>     
+    </div>
 </div>
+
 ````
 
 <br/> 

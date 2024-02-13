@@ -1,5 +1,5 @@
 # Tenants
-Cela represente ici notre base de données ou on ajoute des tenants
+Ceci représente notre base de données où nous ajoutons des tenants.
 
 *
 

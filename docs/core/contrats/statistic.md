@@ -1,5 +1,10 @@
-# Statistics
-On a la les differents staisques enregistrer
+# Statistiques
+
+
+
+Ici, nous avons les diverses statistiques des opérations enregistrées effectuées dans l'application.
+
+
 
 *
 ![Alt text](/public/statistics.png)

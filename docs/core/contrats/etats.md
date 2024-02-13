@@ -1,6 +1,6 @@
 # Etats
-Cette partie comporte tous les etats des differents opération menées et de les telechargés
-###
+Cette section présente les états des diverses opérations réalisées et offre la possibilité de les télécharger.
+
 *
 
 ![Alt text](/public/etats.png)

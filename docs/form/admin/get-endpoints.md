@@ -1,50 +1,21 @@
-### <span style="color:green">GET</span>    Endpoints
+# Rendez-vous
 
-````
-BASE_URL/admin/endpoints/list
-````
-<br>
+Nous ajoutons ici les rendez-vous pris avec les différents clients.
 
-# Récupération de la liste des endpoints
-Ce guide vous aide à comprendre comment récupérer la liste des endpoints.
+*
 
-## Example de requête
+![Alt text](/public/rendez_vous.png)
 
-```txt
-curl --location 'BASE_URL/admin/endpoints/list'
+*
+
+![Alt text](/public/ajouter_rendez_vous.png)
+
+```template
+
+ <button v-b-modal.modal-center class="btn btn-primary btn-sm">
+        <i class="fad fa-calendar-day"></i>
+        {{ trans("Ajouter un rendez-Vous") }}
+</button>
+
+
 ```
-
-## Données reçues
-L'API renverra une réponse JSON contenant la liste des endpoints :
-
-## Exemple de Réponse
-
-::: details Corps  
-
-```json
-{
-    "status": "success",
-    "routes": [
-        {
-            "path": "admin/endpoints/list",
-            "name": "endpoints_list",
-            "description": "Lorem ipsum dolor sit amet, consectet",
-        },
-        {
-            "path": "admin/exemple1/list",
-            "name": "exemple1",
-            "description": "Lorem ipsum dolor sit amet, consectet",
-        },
-        {
-            "path": "admin/exemple/list",
-            "name": "exemple",
-            "description": "Lorem ipsum dolor sit amet, consectet",
-        }
-    ]
-}
-```
-:::
-
-::: details En-Têtes (1)
- *Content-Type*    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     application/json
-:::

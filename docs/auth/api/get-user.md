@@ -1,5 +1,5 @@
 # Rôles
-On donnes ici les différents rôles de nos utilisateurs qu'on peut modifier
+Ici, nous fournissons les différents rôles de nos utilisateurs, que nous pouvons modifier.
 
 *
 
