@@ -11,12 +11,10 @@ Dans cet espace nous avons la possibilité de créer un profil apporteur, d'enre
 
 ###
 
-**differents boutons**
-
-### <ul></ul> creer ul
 *
 ![Alt text](/public/creer_apporteurs.png)
 
+*
 
 ```template
 
@@ -26,11 +24,13 @@ Dans cet espace nous avons la possibilité de créer un profil apporteur, d'enre
  </div>
 
 ```
-*
 ###
 
 *
+
 ![Alt text](/public/generer_code_apporteurs.png)
+
+*
 
 ```template
 
@@ -40,10 +40,12 @@ Dans cet espace nous avons la possibilité de créer un profil apporteur, d'enre
  </div>
 
 ```
+
 *
-### 
-*
+
 ![Alt text](/public/generer_parametre_apporteurs.png)
+
+*
 
 ```template
 
@@ -53,4 +55,3 @@ Dans cet espace nous avons la possibilité de créer un profil apporteur, d'enre
  </router-link>
 
 ```
-*
