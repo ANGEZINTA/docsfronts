@@ -1,5 +1,5 @@
 # Etats
-Cette section présente les états des diverses opérations réalisées et offre la possibilité de les télécharger.
+Cette section présente l'état des diverses opérations réalisées et offre la possibilité de les télécharger.
 
 *
 

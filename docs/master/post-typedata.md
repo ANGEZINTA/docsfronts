@@ -1,6 +1,6 @@
 # Langue
 
-On ajoute différentes langues simplement sur la plateforme.
+Permet d'ajouter plusieurs langues sur la plateforme.
 
 *
 ![Alt text](/public/langue.png)

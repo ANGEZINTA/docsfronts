@@ -1,8 +1,10 @@
 # Plateforme
-Il s'agit d'un système qui propose une gamme de services et de fonctionnalités répondant à des besoins spécifiques, 
-notamment pour autoriser l'affichage de divers formulaires.<br>
+Il s'agit d'un système qui propose une gamme de services et de fonctionnalités répondant à des besoins spécifiques.
 
-En créant et en modifiant de nouvelles catégories, ainsi qu'en mettant en place de nouvelles plateformes.
+
+Notamment pour autoriser l'affichage de divers formulaires en créant et en modifiant de nouvelles catégories, ainsi qu'en mettant en place de nouvelles plateformes.
+
+
 
 
 *

@@ -1,7 +1,7 @@
 # Assureurs
 C'est l'entreprise qui propose des services d'assurance.<br>
 Nous enregistrons ici tous nos assureurs, nous effectuons des modifications et des suppressions, et nous créons des packs pour nos clients.<br>
-les pack sont des sont des offres qui recouvre plusieurs types de couvertures d'assurances.
+Les packs sont des offres qui recouvrent plusieurs types de couvertures d'assurance.
 
 *
 ![Alt text](/public/assureurs.png)

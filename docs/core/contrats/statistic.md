@@ -2,7 +2,7 @@
 
 
 
-Ici, nous avons les diverses statistiques des opérations enregistrées effectuées dans l'application.
+Ici, nous avons accès aux données statistiques des opérations enregistrées  dans l'application.
 
 
 

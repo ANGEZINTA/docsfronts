@@ -1,9 +1,8 @@
 # Apporteur
 
-Un apporteur est  l'intermédiaire entre les assureurs et les clients, chargé de présenter et de vendre des produits d'assurance. 
+Un apporteur   est  l'intermédiaire entre les assureurs et les clients. Il est chargé de présenter et de vendre des produits d'assurance. 
 
-
-Nous enregistrons ici l'initiateur du contrat et avons la possibilité de générer des codes pour l'apporteur avec des paramètres.
+Dans cet espace nous avons la possibilité de créer un profil apporteur, d'enregistrer les informations du nouveau contrat signé par ce dernier et ainsi de pouvoir générer son code.
 
 
 *

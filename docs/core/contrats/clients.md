@@ -1,5 +1,5 @@
 # Clients
-Ici, nous créons un client, l'enregistrons, le recherchons et le réinitialisons.
+Cet espace permet de créer un profil client , de l'enregistrer , de le rechercher et / ou  de le supprimer.
 
 *
 

@@ -1,7 +1,7 @@
 # Cotation
 C'est le  processus par lequel l'assureur évalue le risque d'un client et fournit une estimation du coût de la couverture d'assurance appropriée.
 
-Ici, nous effectuons les cotations une fois une affaire validée. Vous pouvez obtenir des informations détaillées sur la cotation ou la supprimer.
+Ici, nous effectuons les cotations une fois qu'une affaire est validée. Vous pouvez obtenir des informations détaillées sur la cotation ou la supprimer.
 
 *
 

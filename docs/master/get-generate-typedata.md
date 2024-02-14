@@ -1,4 +1,4 @@
-# Parametère
+# Paramètre
 Nous enregistrons les différentes méthodes de calcul et les états associés.
 
 *
