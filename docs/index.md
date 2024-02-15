@@ -7,9 +7,9 @@ Cette application a été développée avec du html, css, bootstrap, javascript 
 
 Elle portera sur les cinq points suivants :
 
-La configuration ;
-La production ;
-La communication ;
-La prospection ;
-L’administration ;
+* La configuration ;
+* La production ;
+* La communication ;
+* La prospection ;
+* L’administration ;
 
