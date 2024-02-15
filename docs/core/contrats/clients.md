@@ -1,5 +1,5 @@
 # Clients
-Cet espace permet de créer un profil client , de l'enregistrer , de le rechercher et / ou  de le supprimer.
+Cet espace permet de créer un profil client, de l’enregistrer, de le rechercher et/ou de le supprimer.
 
 *
 

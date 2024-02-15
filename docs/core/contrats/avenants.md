@@ -1,5 +1,5 @@
 # Avenants
-Cette partie nous permet de modifier un contrat d'assuarnce existant sans pour autant devoir en créer un autre. 
+Cette partie nous permet de modifier un contrat d'assurance existant sans pour autant devoir en créer un autre. 
 
 
 ![Alt text](/public/contrats.png)

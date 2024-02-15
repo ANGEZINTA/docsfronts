@@ -1,5 +1,5 @@
 # Rôles
-Ici, nous attribuons les différents rôles aux utilisateurs. Les rôles pourront être modifiés par la suite .
+Ici, nous attribuons les différents rôles aux utilisateurs. Les rôles pourront être modifiés par la suite.
 
 *
 
@@ -21,7 +21,6 @@ Ici, nous attribuons les différents rôles aux utilisateurs. Les rôles pourron
 
 ![Alt text](/public/creer_roles.png)
 
-*
 
 ````template
 

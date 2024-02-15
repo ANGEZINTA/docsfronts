@@ -1,5 +1,5 @@
 # Méthodes de paiements
-Dans cet espace nous retrouvons toutes les méthodes de paiement  proposées par l'application. Nous avons également la posssibilité d'en ajouter si besoin.
+Dans cet espace, nous retrouvons toutes les méthodes de paiement proposées par l'application. Nous avons également la possibilité d'en ajouter si besoin.
 
 *
 
