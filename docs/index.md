@@ -1,4 +1,4 @@
-# WiASSUR DOCS FRONT
+# WiASSUR DOCS FRONT END
 
 Bienvenue dans la documentation technique de l'application web et mobile.
 Cette documentation a été créée pour fournir aux développeurs, ingénieurs et autres parties prenantes une compréhension approfondie de l'architecture, des fonctionnalités et des meilleures pratiques associées à notre application.
